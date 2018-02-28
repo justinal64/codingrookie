@@ -1,5 +1,5 @@
 import * as React from "react";
-// import "./App.css";
+import Header from "../components/typography/header";
 
 // const logo = require("./logo.svg");
 
@@ -7,7 +7,7 @@ class Test extends React.Component {
   render() {
     return (
       <div className="App">
-        <p>This is a test!!!!!</p>
+        <Header title="This is a test">This is a test</Header>
       </div>
     );
   }
