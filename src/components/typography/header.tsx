@@ -1,6 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
 
+// This is just an example of a styled component
 export interface Props {
   title: string;
 }
