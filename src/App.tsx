@@ -8,9 +8,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <Navigation />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <Navigation />
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <Routes />
