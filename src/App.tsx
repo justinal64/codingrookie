@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./styles/App.css";
 import Routes from "./components/Routes";
-import Navigation from "./components/Navigation";
+import Navigation from "./components/Navigation/Navigation";
 
 class App extends React.Component {
   render() {
