@@ -9,8 +9,10 @@ export interface Props {
 // This is just an example of a styled component
 const StyledLink = styled.a`
   font-size: 1.5em;
-  text-align: center;
-  color: palevioletred;
+
+  color: white;
+  padding: 0rem 1rem;
+  text-decoration: none;
 `;
 
 class Link extends React.Component<Props, object> {
