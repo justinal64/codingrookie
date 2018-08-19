@@ -7,17 +7,26 @@ class Navigation extends React.Component<object> {
   public render() {
     return (
       <div className="nav">
-        <Row>
-          <Col lg={8}>
+        <Row center="xs">
+          <Col lgOffset={1} lg={4}>
             <div>Logo Here</div>
           </Col>
-          <Col lg={3}>
-            <Row end="lg">
-              <Col lg={4}>
+          <Col lg={6}>
+            <Row end="lg" center="xs">
+              <Col xs={12} sm={2} lg={2}>
                 <Link location="/login" title="Login" />
+              </Col>
+              <Col xs={12} sm={2} lg={2}>
                 <Link location="/blog" title="Blog" />
+              </Col>
+              <Col xs={12} sm={2} lg={2}>
                 <Link location="/login" title="Login" />
+              </Col>
+              <Col xs={12} sm={2} lg={2}>
                 <Link location="/login" title="Profile" />
+              </Col>
+              <Col xs={12} sm={2} lg={2}>
+                <Link location="/login" title="Social" />
               </Col>
             </Row>
           </Col>
